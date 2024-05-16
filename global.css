@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Average+Sans&family=Jomhuria&display=swap");
+
+body {
+  margin: 0;
+  background: #f3c622;
+  color: #111010;
+  font-family: "Average Sans", sans-serif;
+}
+
+li {
+  list-style: none;
+}

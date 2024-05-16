@@ -1,0 +1,257 @@
+@keyframes bob {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-50px);
+  }
+}
+
+.hide {
+  display: none;
+}
+
+.we {
+  animation: 900ms ease-in-out infinite alternate bob;
+}
+
+.all {
+  animation: 900ms ease-in-out 100ms infinite alternate bob;
+}
+
+.love {
+  animation: 900ms ease-in-out 300ms infinite alternate bob;
+}
+
+.emphasis {
+  animation: 900ms ease-in-out 500ms infinite alternate bob;
+}
+
+.navBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  z-index: 100;
+}
+
+.home {
+  color: white;
+}
+
+.brandLogo {
+  margin-left: 40px;
+  margin-right: auto;
+  margin-top: 15px;
+  font-family: "Jomhuria", serif;
+  font-size: 50px;
+}
+
+.navigations {
+  margin-right: 40px;
+  margin-left: auto;
+  display: inherit;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.options {
+  -webkit-text-stroke: 0.5px;
+  font-size: 15pt;
+  cursor: pointer;
+}
+
+.selected {
+  position: fixed;
+  height: 45px;
+  width: 95px;
+  background: #23212c;
+  border-radius: 50px;
+  margin-top: 13px;
+  right: 220px;
+  z-index: -1;
+  transition: 100ms ease-in-out;
+}
+
+.viewOne {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  transform: translateX(-35px);
+}
+
+.viewOneHeader {
+  font-size: 45pt;
+  display: flex;
+  gap: 20px;
+}
+
+.emphasis {
+  -webkit-text-stroke: 2px;
+  color: #23212c;
+  font-weight: bold;
+}
+
+.viewTwo {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.viewTwoContainer {
+  opacity: 0;
+  height: 80%;
+  width: 80%;
+  background: white;
+  box-shadow: 0 0 20px black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  border-radius: 10px;
+  transition: 300ms ease-in-out;
+  transform: translateY(20px);
+}
+
+.viewTwoContainer .imgBox {
+  border: 20px solid #23212c;
+  height: 350px;
+  width: 350px;
+  background-image: url(./assets/honeybeesViewTwo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.funFact {
+  width: 40%;
+  text-align: justify;
+  font-size: 18pt;
+}
+
+.viewThree {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.viewThreeContainer {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.viewThreeNav {
+  width: 100%;
+  background: #23212c;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  overflow: hidden;
+  padding: 0;
+  box-shadow: 0 5px 10px black;
+}
+
+.viewThreeNav li {
+  width: 33.33333333%;
+  padding: 10px 0;
+  font-size: 14pt;
+  text-align: center;
+  transition: 100ms ease-in-out;
+  cursor: pointer;
+}
+
+.viewThreeNav li:hover {
+  background: rgba(255, 255, 255, 0.247);
+  transition: 100ms ease-in-out;
+}
+
+.viewThreeVid {
+  width: 85%;
+  height: 65vh;
+}
+
+.pageTwoViewOne {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 150px 0;
+}
+
+.pageTwoViewOneContainer {
+  width: 80%;
+  display: inherit;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+}
+
+.companyAbout {
+  margin-bottom: 50px;
+}
+
+.vmgo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.mission,
+.vision {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  background: #23212c;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.pageThreeViewOne {
+  margin: 100px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pageThreeViewOneContainer {
+  width: 80%;
+}
+
+.map {
+  width: 100%;
+  box-shadow: 0 0 10px black;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
